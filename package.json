@@ -1,0 +1,28 @@
+{
+  "name": "coba-heroku2",
+  "version": "0.1.5",
+  "description": "A sample webrtc",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "ejs": "*",
+    "express": "*",
+    "node-static": "*",
+    "socket.io": "0.9.6"
+  },
+  "engines": {
+    "node": "*"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nandafroyo/coba-heroku2"
+  },
+  "keywords": [
+    "node",
+    "heroku",
+    "webrtc"
+  ],
+  "license": "MIT"
+}

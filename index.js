@@ -58,7 +58,7 @@
 var express = require('express');
 var app = express();
 app.get('/', function (req, res) {
-  res.sendfile(__dirname + '/index1.html');
+  res.sendfile(__dirname + '/index.html');
 });
 
 var static = require('node-static');

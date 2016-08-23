@@ -87,7 +87,7 @@ createform.appendChild(submitelement);
 */
 
 // Connect to signaling server
-var socket = io.connect("https://belajarwebrtc3.herokuapp.com:8000");
+var socket = io.connect("https://belajarwebrtc3.herokuapp.com");
 //var socket = io.connect();
 // Send 'Create or join' message to singnaling server
 if (room !== '') {
